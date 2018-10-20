@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tablas</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<style>
+table, th, td {
+    border:2px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+    th, td {
+    padding: 5px;
+    text-align: center;  
+}
+</style>
+
+<body background="Imagenes/fundido.jpg">
+
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="PaginaPersonal.html">Marchesin</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="Informatica.html">Informatica</a></li>
+                        <li><a href="Computacion.html">Computacion</a></li>
+                        <li><a href="#">En Construccion</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="construc.html">Proximamente</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Registro.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="Ingreso.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                </div>
+              </nav>
+                
+              <div class="container">
+                <h3>Prueba de barra navegador</h3>
+                <p>The .navbar-right class is used to right-align navigation bar buttons.</p>
+              </div>
+
+    <table border="30">
+        <tr>
+        <th colspan="4">Mi Horario Escolar</th>
+        </tr>
+        <!--estos son los titulos-->
+        <th>Hora</th><th>Lunes</th><th>Martes</th><th>Miercoles</th><th>Jueves</th><th>Vernes</th>
+        <tr></tr>
+        <!--primera linea-->
+        <td>7:00 a 8:00</td><td colspan="2" rowspan="4">Matematicas</td><td>Espanol</td>
+        <tr></tr>
+        <!--primera linea-->
+        <td>7:00 a 8:00</td><td>Lunes</td><td>Martes</td><td>Miercoles</td><td>Jueves</td><td>Viernes</td>
+        <tr></tr>
+        <!--segunda linea-->
+        <td>7:00 a 8:00</td><td>Lunes</td><td>Martes</td><td>Miercoles</td><td>Jueves</td><td>Viernes</td>
+        <tr></tr>
+        <!--tercera linea-->
+        <td>7:00 a 8:00</td><td>Lunes</td><td>Martes</td><td>Miercoles</td><td>Jueves</td><td>Viernes</td>
+        <tr></tr>
+
+
+    </table>
+
+    <br>
+
+    <table style="width:45%">
+
+        <!--primera cuadro primario-->
+        <tr>
+        <th rowspan="5">Argentina</th>
+        <!--primera linea-->
+        <td>La Nacion</td>
+        <td><a href="https://www.lanacion.com.ar/">www.lanacion.com.gr</a></td>
+        </tr>
+        <!--segunda linea-->
+        <td>Clarin</td>
+        <td><a href="http://www.clarin.com.ar">www.clarin.com.ar</a></td>
+        <tr></tr>
+        <!--tercera linea-->
+        <td>La voz del interior</td>
+        <td><a href="http://www.lavoz.com.ar">www.lavoz.com.ar</a></td>
+        <tr></tr>
+        <!--segundo cuadro primario-->
+        <tr>
+        <th rowspan="5">Espana</th>
+        <!--cuarta linea-->
+        <td>El Pais digital</td>
+        <td><a href="http://www.elpais.es">www.elpais.es</a></td>
+        </tr>
+        <!--quinta linea-->
+        <td>ABC</td>
+        <td><a href="https://www.abc.es/">www.abc.es</a></td>
+        <tr></tr>
+        <!--sexta linea-->
+        <td>El Mundo</td>
+        <td><a href="https://www.elmundo.es/">www.elmundo.es</a></td>
+        <tr></tr>
+        <!--tercer cuadro primario-->
+        <tr>
+        <th rowspan="3">Mexico</th>
+        <!--septima linea-->
+        <td>La Jornada</td><td><a href="http://www.jornada.unam.mx">www.jornada.unam.mx</a></td>
+        </tr>
+        <!--octava linea-->
+        <td>El Universal</td>
+        <td><a href="https://www.eluniversal.com.mx/">www.eluniversal.com.mx</a><x/td>
+        <tr></tr>
+
+    </table>
+    
+</body>
+</html>
