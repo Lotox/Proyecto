@@ -58,28 +58,28 @@ h2
     width: 100%;
     margin-bottom: 20px;
 }
-.login  form [type="text"],
-.login form [type="password"]
+.login input[type="text"],
+.login input[type="password"]
 {
     border: none;
-    border-bottom: 4px, solid, #fff;
+    border-bottom: 4px solid #fff;
     background: transparent;
     outline: none;
     color: #fff;
     font-size: 16px;
     height: 40px;
 }
-.login form [type="submit"]
+.login input[type="submit"]
 {
     border: none;
     outline: none;
     color: #262626;
-    background: #efed40;
+    background: #fff700;
     cursor: pointer;
     border-radius: 20px;
     height: 40px;
 }
-.login input [type="submit"] :hover
+.login input[type="submit"]:hover
 {
     background: #efed40;
     color: #262626;
