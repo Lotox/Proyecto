@@ -58,11 +58,11 @@ h2
     width: 100%;
     margin-bottom: 20px;
 }
-.login input [type="text"]
+.login  input [type="text"],
 .login input [type="password"]
 {
     border: none;
-    border-bottom: 1px, solid, #fff;
+    border-bottom: 4px, solid, #fff;
     background: transparent;
     outline: none;
     color: #fff;
@@ -84,7 +84,7 @@ h2
     background: #efed40;
     color: #262626;
 }
-.login a 
+.login a
 {
     color: #fff;
     font-size: 14px;
